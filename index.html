@@ -691,10 +691,23 @@
             <h1 class="profile-name">Christopher Castro</h1>
             <h2 class="profile-title">Software & Cybersecurity Engineering Portfolio</h2>
         </div>
-        <p class="home-subtitle">Click Below to Explore My Work</p>
-        <button class="animated-button" onclick="navigateToLanguages()">Enter Portfolio</button>
-    </section>
+       
+<p class="home-subtitle">Click Below to Explore My Work</p>
 
+        <!-- LinkedIn Badge -->
+<div class="badge-base LI-profile-badge" 
+     data-locale="en_US" 
+     data-size="medium" 
+     data-theme="light" 
+     data-type="VERTICAL" 
+     data-vanity="christopher-castro-b60011294" 
+     data-version="v1">
+</div>
+
+        <button class="animated-button" onclick="navigateToLanguages()">Enter Portfolio</button>
+
+    </section>
+    
     <!-- Languages Grid Page (Initially Hidden) -->
     <section id="languages" class="languages-page" style="display: none;">
         <div class="container">
@@ -3716,5 +3729,9 @@ ORDER BY total_appointments DESC;`,
         window.addEventListener('scroll', handleScrollAnimations);
         window.addEventListener('load', handleScrollAnimations);
     </script>
+
+    <!-- LinkedIn Badge Script -->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    
 </body>
 </html>
